@@ -8,14 +8,15 @@ import categoryRoutes from './routes/categoryRoutes.js';
 import productRoutes from "./routes/productRoutes.js";
 import cors from 'cors';
 import path from 'path';
-import {fileURLToPath} from 'url';
+import { fileURLToPath } from 'url';
+
 
 // conifgure env
 dotenv.config();
 //database config
 connectDB();
 // esmodule fix
-const __filename=fileURLtoPath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 const __dirname=path.dirname(__filename);
 // rest object
 const app = express();

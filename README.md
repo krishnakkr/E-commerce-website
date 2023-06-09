@@ -1,2 +1,2 @@
 # E-commerce-website
-https://ecommerce126.cyclic.app/
+https://flipzon.cyclic.app/
